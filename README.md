@@ -12,6 +12,8 @@ In a nutshell, here's what you will do:
 
 ## Getting started
 
+### Don't forget to configure AWS again on starting GitPod
+
 We've set up a Gitpod environment containing all the tools required to complete
 this exercise (awscli, python, vscode, ...). You can access this environment by
 clicking the button below:
