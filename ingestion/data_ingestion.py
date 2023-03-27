@@ -3,7 +3,7 @@ import boto3, json, requests, pendulum, random, datetime
 S3_URL = "s3a://dataminded-academy-capstone-resources/sampxl/ingest/"
 BUCKET = "dataminded-academy-capstone-resources"
 BUCKET_FOLDER = "sampxl/ingest"
-OPENAQ_URL = "https://api.openaq.org/v2/locations?limit=100&page=1&offset=0&sort=desc&radius=1000&order_by=lastUpdated&dumpRaw=false"
+OPENAQ_URL = "https://api.openaq.org/v2/latest?limit=100&page=1&offset=0&sort=desc&radius=1000&order_by=lastUpdated&dumpRaw=false"
 
 if __name__ == "__main__":
 
