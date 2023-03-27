@@ -1,0 +1,2 @@
+docker rm spark_container
+docker rmi spark_container
